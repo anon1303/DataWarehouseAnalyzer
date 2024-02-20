@@ -29,7 +29,7 @@ def conv_time(timestamp_ms):
         return None
 
 # File path for input JSON
-input_file_path = 'vault_report.json'
+input_file_path = filename = input("Enter the filename: ")
 
 # Read input JSON string from file
 with open(input_file_path, 'r') as file:
